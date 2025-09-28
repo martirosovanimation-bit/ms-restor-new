@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Отзывы — MS Реставрация</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="favicon.ico" alt="MS Logo">
+        MS Реставрация
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="price.html">Прайс</a></li>
+          <li><a href="reviews.html" class="active">Отзывы</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="order.html">Заказать</a></li>
+        </ul>
+        <button class="burger" aria-label="Меню">☰</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1 class="section-title">Отзывы клиентов</h1>
+    <section class="reviews-list">
+      <div class="review-card">
+        <div class="review-author">Анна К.</div>
+        <div class="review-text">Спасибо большое за реставрацию моих любимых туфель! Всё как новое, очень довольна сервисом!</div>
+      </div>
+      <div class="review-card">
+        <div class="review-author">Игорь С.</div>
+        <div class="review-text">Быстрая замена молнии на куртке, качественно и недорого. Рекомендую!</div>
+      </div>
+      <div class="review-card">
+        <div class="review-author">Мария Л.</div>
+        <div class="review-text">Покраска сумки выполнена идеально, цвет ровный, нигде не потёк. Спасибо мастерам!</div>
+      </div>
+      <div class="review-card">
+        <div class="review-author">Евгений П.</div>
+        <div class="review-text">Приятные сотрудники, всегда подскажут и помогут. Теперь только к вам!</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-contacts">
+      <span>📍 Москва, м. Таганская, Большие Каменщики д.1, офисный центр, 3 этаж, офис 5</span><br>
+      <a href="tel:+79296786666">+7 929 678-66-66</a>
+      <a href="https://wa.me/79296786666" target="_blank">WhatsApp</a>
+      <a href="https://t.me/" target="_blank">Telegram</a>
+    </div>
+    <div>© 2025 Мастерская реставрации</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

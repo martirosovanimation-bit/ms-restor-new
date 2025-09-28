@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заказать — MS Реставрация</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="img/logo.png" alt="Logo"> MS Реставрация</div>
+    <button class="burger">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="price.html">Прайс</a></li>
+        <li><a href="reviews.html">Отзывы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="order.html" class="active btn">Заказать</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <h1>Оставьте заявку</h1>
+      <p>Мы свяжемся с вами в ближайшее время.</p>
+    </section>
+
+    <section class="form fade-in" style="margin:40px auto;max-width:800px;text-align:center;">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7VWwqQi8NDbENa-YjdlFsbvcRKu54P8CAK-16Uur1U3jHtA/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2000–2025 Мастерская реставрации</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
